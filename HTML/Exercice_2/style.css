@@ -1,0 +1,19 @@
+body {
+    font-family: Comic Sans MS;
+    text-align: center;
+    color: hotpink;
+    background-color: pink;
+}
+
+img {
+    width: 50%;
+    border-radius: 50%;
+    border: 5px hotpink solid;
+    margin: 15px 0 10px 0;
+
+}
+
+li:first-child {
+    margin-top: 15px;
+}
+
