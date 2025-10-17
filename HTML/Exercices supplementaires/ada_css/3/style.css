@@ -1,0 +1,23 @@
+/* 3️⃣ Styles de base de la card */
+.card {
+    max-width: 800px;
+    margin: 2rem auto;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+/* Grid layout – à compléter */
+.card {
+    /* votre code ici */
+}
+
+/* Image responsive */
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+/* Contenu textuel */
+.content {
+    padding: 1rem;
+}

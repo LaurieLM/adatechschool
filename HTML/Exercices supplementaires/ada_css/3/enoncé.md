@@ -1,0 +1,1 @@
+Utilisez CSS Grid pour disposer l’image à gauche et le texte à droite sur écrans larges (> 600 px). Sur écrans plus petits, l’image doit passer au-dessus du texte (mise en colonne).

@@ -1,0 +1,54 @@
+/* Exercice 4 – Formulaire stylisé */
+
+.contact-form {
+    max-width: 400px;
+    margin: 3rem auto;               /* centre verticalement avec marge */
+    padding: 1.5rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;                    /* espace entre les champs */
+}
+
+/* Labels restent alignés à gauche */
+.contact-form label {
+    font-weight: 600;
+}
+
+/* Styles communs aux champs texte et textarea */
+.contact-form input,
+.contact-form textarea {
+    padding: 0.5rem;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;          /* inclut padding dans la largeur */
+}
+
+/* Focus – bordure bleue */
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;                  /* retire le contour natif */
+    border-color: #0066ff;
+    box-shadow: 0 0 3px rgba(0,102,255,0.4);
+}
+
+/* Bouton */
+.contact-form button {
+    background-color: #6200ea;
+    color: #fff;
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+/* Hover du bouton – assombrissement */
+.contact-form button:hover {
+    background-color: #4b00b5;
+}

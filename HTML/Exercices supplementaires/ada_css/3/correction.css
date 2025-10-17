@@ -1,0 +1,27 @@
+/* Exercice 3 – Card responsive avec CSS Grid */
+
+.card {
+    display: grid;                         /* active Grid */
+    grid-template-columns: 1fr;            /* par défaut : une colonne */
+    gap: 0;                                 /* pas d'espace entre les cellules */
+}
+
+/* Quand la largeur dépasse 600 px, on passe à deux colonnes */
+@media (min-width: 600px) {
+    .card {
+        grid-template-columns: 200px 1fr;  /* image fixe 200 px, texte prend le reste */
+    }
+}
+
+/* Image prend toute la largeur de sa cellule */
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Ajout d’un léger ombrage pour la carte */
+.card {
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    border-radius: 4px;
+}

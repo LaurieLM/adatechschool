@@ -1,0 +1,20 @@
+/* Exercice 2 – Navbar avec Flexbox */
+
+.navbar {
+    display: flex;                 /* active Flexbox */
+    justify-content: center;       /* centre les éléments horizontalement */
+    gap: 2rem;                     /* espace entre les liens */
+    background-color: #333;        /* fond sombre */
+    padding: 1rem 0;               /* marge intérieure verticale */
+}
+
+.navbar a {
+    color: #fff;                   /* texte blanc */
+    text-decoration: none;         /* enlève le soulignement */
+    font-weight: bold;
+    transition: color 0.2s;        /* animation douce au survol */
+}
+
+.navbar a:hover {
+    color: #ffcc00;                /* couleur au survol */
+}

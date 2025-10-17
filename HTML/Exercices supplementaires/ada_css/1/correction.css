@@ -1,0 +1,16 @@
+/* Exercice 1 – Couleurs de fond */
+
+/* Paragraphe 1 : rose pâle */
+.p1 {
+    background-color: #ffdddd;
+}
+
+/* Paragraphe 2 : vert pâle */
+.p2 {
+    background-color: #ddffdd;
+}
+
+/* Paragraphe 3 : bleu pâle */
+.p3 {
+    background-color: #ddddff;
+}

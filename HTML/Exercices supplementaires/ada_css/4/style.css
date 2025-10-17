@@ -1,0 +1,26 @@
+/* 4️⃣ Styles de base du formulaire */
+.contact-form {
+    /* votre code ici */
+}
+
+/* Champs texte & textarea */
+.contact-form input,
+.contact-form textarea {
+    /* votre code ici */
+}
+
+/* Focus */
+.contact-form input:focus,
+.contact-form textarea:focus {
+    /* votre code ici */
+}
+
+/* Bouton */
+.contact-form button {
+    /* votre code ici */
+}
+
+/* Hover du bouton */
+.contact-form button:hover {
+    /* votre code ici */
+}
